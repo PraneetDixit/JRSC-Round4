@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | OSDA</title>
+
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <a href="#" id="title">
+                <img src="img/logo.png" alt="OSDA logo" height="55">
+                <span>OSDA</span>
+            </a>
+            <button id="hamburger">&#9776;</button>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#about">About Competition</a>
+                <a href="#register">Register</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+        <p>
+            WorldSkills India is an initiative of the National Skill Development Corporation (NSDC) under the Ministry
+            of Skill Development and Entrepreneurship, Government of India. NSDC, through its WorldSkills India
+            initiative, has been leading the country's participation at WorldSkills International competitions since
+            2011.
+        </p>
+    </section>
+    <section id="about">
+        <h2>About Competition</h2>
+        <p>WorldSkills International is the largest skill competition in the world, organised once every two years in
+            one of the member countries. More than 1300 contestants below the age of 23, compete for gold, silver and
+            bronze medals, in over 50 skills. The competition is held over a span of four days.</p>
+        <h3>Objectives</h3>
+        <ul>
+            <li>Promulgate skills in society to motivate the youth to pursue vocational education.</li>
+            <li>Champion skills and learning for work through local, regional, national and international skills
+                competitions</li>
+            <li>Create partnership network comprising of government, industry, academic partners, VET institutions,
+                trade
+                associations and youth to promote skills</li>
+            <li>Establish long-term association with WorldSkills International and other WorldSkills member countries
+            </li>
+        </ul>
+        <h3>FAQs</h3>
+        <ul>
+            <li>
+                Who can participate for Worldskills Competition 2019 ? <br>
+                - Any skilled person born on or after 1st January 1999 could participate in any of the skills mentioned
+                below, with the exception to Aircraft Maintenance, Manufacturing Team Challenge and Mechatronics, where
+                the candidate should have been born on or after 1st January 1996.
+            </li>
+            <br>
+            <li>
+                What is the selection process and How to Participate? <br>
+                - The potential competitors needs to register through an online portal ( state or national) to
+                participate in Indiaskills Competitions. The selection will be conducted by state government, sector
+                skill councils in partnership with academic & industry partners at district, zone, state level. The
+                selected state champions will be competing in regional competitions which will be organized by
+                Indiaskills in partnership with sector skill councils, corporate and academic partners. The regional
+                competition winners will be showcasing their skills at Indiaskills National competitions.
+            </li>
+        </ul>
+    </section>
+    <section id="countdown">
+        <h2>Time to Go</h2>
+        <p>Competition will start on 9th March 2022, 10:00 AM</p>
+        <div id="timer"></div>
+    </section>
+    <section id="register">
+        <h2>Register</h2>
+        <form action="#" spellcheck="false">
+            <input type="text" name="name" placeholder="Fullname" required>
+            <input type="email" name="email" placeholder="Email ID" required>
+            <input type="number" name="mobile" placeholder="Mobile Number" required>
+            <input type="date" name="dob" id="dob" required>
+            <select name="skill" id="skill" required>
+                <option value="">Select a Skill</option>
+                <option value="webTechnologies">Web Technologies</option>
+                <option value="itssb">ITSSB</option>
+                <option value="graphicDesigning">Graphic Designing</option>
+                <option value="visualMerchandising">Visual Merchandising</option>
+            </select>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div id="imgContainer">
+            <img src="img/i1.jpg">
+            <img src="img/i2.jpg">
+            <img src="img/i3.jpg">
+            <img src="img/i4.jpg">
+            <img src="img/i5.jpg">
+            <img src="img/i6.jpg">
+        </div>
+    </section>
+    <footer>
+        <div id="contact">
+            <h3>Contact Us :-</h3>
+            <p>Phone number: +91-11-47451600-10 <br> Address:- 301, West Wing, Worldmark 1, Aerocity, Odisha, India</p>
+        </div>
+        <div id="sm">
+            <a href="https://www.youtube.com/user/nsdcindiaofficial" id="yt"></a>
+            <a href="https://www.instagram.com/skill_india_official/?hl=en" id="ig"></a>
+            <a href="https://in.linkedin.com/company/national-skill-development-corporation" id="li"></a>
+        </div>
+        <p id="copyright">&copy; WorldSkills India 2022</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
